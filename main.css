@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* header stuff */
+.no-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+.nav-right {
+  float: right;
+}
+.cover {
+  height: 100vh;
+  background-image: url("http://www.artsfon.com/pic/201504/1920x1080/artsfon.com-68766.jpg");
+  background-size: cover;
+}
+.cover a {
+  color: white;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+.dead {
+  font-family: 'Permanent Marker', cursive;
+}
+.dead:focus, .dead:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.cover-overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .75);
+}
+.name-container {
+  height: 100vh;
+  text-align: center;
+}
+.name {
+  color: white;
+  top: 50%;
+  position: relative;
+  background-size: contain;
+  transform: translateY(-110%);
+}
+.name h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+.name h4 {
+  color: #ddd;
+}
+
+/* body stuff */
+.page-header {
+  text-align: center;
+}
+/* footer */
+.jumbotron {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("http://images.tate.org.uk/sites/default/files/images/detail-roy.jpg");
+  color: white;
+  margin-bottom: 0;
+}
